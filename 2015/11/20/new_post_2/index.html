@@ -35,15 +35,19 @@
   <link rel="shorticon icon" type="image/x-icon" href="/favicon.ico?v=0.4.5.1" />
 
 
-<meta name="description">
-<meta property="og:type" content="website">
+<meta name="description" content="PHP实践之侦探篇##0. “到底哪错了”
+“我就败了，逻辑上没有问题啊，为什么就是不行呢” “环境刚刚还是好好的，为什么这会就不行了呢” “怎么会这样，不科学啊”相信有很多小伙伴都有过类似的感概和经历，有时甚至都怀疑人生了。每个小伙伴恨不能立马变身柯南，找出事件真相，挖出幕后黑手，就地法办，方解心头之恨！千人千面，“犯罪分子”总是披上不同的外衣。若以侦破速度来论，高手总是善于在蛛丝马迹中寻找破绽">
+<meta property="og:type" content="article">
 <meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://yoursite.com/index.html">
+<meta property="og:url" content="http://yoursite.com/2015/11/20/new_post_2/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description">
+<meta property="og:description" content="PHP实践之侦探篇##0. “到底哪错了”
+“我就败了，逻辑上没有问题啊，为什么就是不行呢” “环境刚刚还是好好的，为什么这会就不行了呢” “怎么会这样，不科学啊”相信有很多小伙伴都有过类似的感概和经历，有时甚至都怀疑人生了。每个小伙伴恨不能立马变身柯南，找出事件真相，挖出幕后黑手，就地法办，方解心头之恨！千人千面，“犯罪分子”总是披上不同的外衣。若以侦破速度来论，高手总是善于在蛛丝马迹中寻找破绽">
+<meta property="og:updated_time" content="2015-11-19T16:40:46.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Hexo">
-<meta name="twitter:description">
+<meta name="twitter:description" content="PHP实践之侦探篇##0. “到底哪错了”
+“我就败了，逻辑上没有问题啊，为什么就是不行呢” “环境刚刚还是好好的，为什么这会就不行了呢” “怎么会这样，不科学啊”相信有很多小伙伴都有过类似的感概和经历，有时甚至都怀疑人生了。每个小伙伴恨不能立马变身柯南，找出事件真相，挖出幕后黑手，就地法办，方解心头之恨！千人千面，“犯罪分子”总是披上不同的外衣。若以侦破速度来论，高手总是善于在蛛丝马迹中寻找破绽">
 
 
 <script type="text/javascript" id="hexo.configuration">
@@ -53,7 +57,7 @@
   };
 </script>
 
-  <title> Hexo </title>
+  <title>  | Hexo </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -71,9 +75,7 @@
 
 
 
-  <div class="container one-column 
-   page-home 
-">
+  <div class="container one-column page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -141,9 +143,9 @@
     <main id="main" class="main">
       <div class="main-inner">
         <div id="content" class="content"> 
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-expand">
     
-      
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
@@ -154,9 +156,7 @@
           
           
             
-              <a class="post-title-link" href="/2015/11/20/new_post_2/" itemprop="url">
-                未命名
-              </a>
+              
             
           
         </h1>
@@ -184,8 +184,7 @@
       
 
       
-        
-          <span itemprop="articleBody"><h1 id="PHP实践之侦探篇">PHP实践之侦探篇</h1><p>##0. “到底哪错了”</p>
+        <span itemprop="articleBody"><h1 id="PHP实践之侦探篇">PHP实践之侦探篇</h1><p>##0. “到底哪错了”</p>
 <p>“我就败了，逻辑上没有问题啊，为什么就是不行呢” “环境刚刚还是好好的，为什么这会就不行了呢” “怎么会这样，不科学啊”<br>相信有很多小伙伴都有过类似的感概和经历，有时甚至都怀疑人生了。每个小伙伴恨不能立马变身柯南，找出事件真相，挖出幕后黑手，就地法办，方解心头之恨！<br>千人千面，“犯罪分子”总是披上不同的外衣。若以侦破速度来论，高手总是善于在蛛丝马迹中寻找破绽，拨开“犯罪分子”伪装的外衣，迅速侦破“xxxx神秘事件”。而新手面对“案件”则可能一筹莫展，无处入手。<br>不信？咱就以一件简单的“案件”聊起。程序员L执行了一个PHP脚本，发现结果返回与实际不符。L开始了“侦破”的过程：</p>
 <p>##1. 自纠自查</p>
 <p>毫不夸张的说，很多问题的产生都是自己挖坑自己跳，尤以环境配置问题为甚。<br>a. 同一环境下PHP多版本并存问题</p>
@@ -236,7 +235,6 @@
 </ul>
 <p>最后就是对工具的熟练使用程度，一个好的工具真的可以大大提高生产力。<br>所以作为一个合格的PHPer,不仅仅只需要搞懂语言层面就OK了，还需要多方面的知识和技能储备才能侦破各个“疑难杂案”，找出背后真相。</p>
 </span>
-        
       
     </div>
 
@@ -244,162 +242,39 @@
       
 
       
+        <div class="post-nav">
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2015/11/20/new_post_1/" rel="next">关于效率的思考</a>
+            
+          </div>
+        </div>
+      
 
       
-      
-        <div class="post-eof"></div>
       
     </footer>
   </article>
 
 
-    
-      
 
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      
-      
-        <h1 class="post-title" itemprop="name headline">
-          
-          
-            
-              <a class="post-title-link" href="/2015/11/20/new_post_1/" itemprop="url">
-                关于效率的思考
-              </a>
-            
-          
-        </h1>
-      
-
-      <div class="post-meta">
-        <span class="post-time">
-          发表于
-          <time itemprop="dateCreated" datetime="2015-11-20T00:29:25+08:00" content="2015-11-20">
-            2015-11-20
-          </time>
-        </span>
-
-        
-
-        
-          
-        
-      </div>
-    </header>
-
-    <div class="post-body">
-
-      
-      
-
-      
-        
-          <span itemprop="articleBody"><p>最近加班颇多，搞得身心俱疲，不由得思考加班的理由：</p>
-<ul>
-<li>项目太多</li>
-<li>人力资源不足</li>
-<li>工作效率太低</li>
-<li>项目沟通不畅</li>
-</ul>
-<p>以上都可能导致加班，但重新review过往的项目，往往是【工作效率低】和【项目沟通不畅】导致加班原因居多</p>
-</span>
-        
+    <div class="post-spread">
       
     </div>
+  </div>
 
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      
-      
-        <h1 class="post-title" itemprop="name headline">
-          
-          
-            
-              <a class="post-title-link" href="/2015/08/16/hello-world/" itemprop="url">
-                Hello World
-              </a>
-            
-          
-        </h1>
-      
-
-      <div class="post-meta">
-        <span class="post-time">
-          发表于
-          <time itemprop="dateCreated" datetime="2015-08-16T23:02:03+08:00" content="2015-08-16">
-            2015-08-16
-          </time>
-        </span>
-
-        
-
-        
-          
-        
-      </div>
-    </header>
-
-    <div class="post-body">
-
-      
-      
-
-      
-        
-          <span itemprop="articleBody"><p>Welcome to <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="http://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="http://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick_Start">Quick Start</h2><h3 id="Create_a_new_post">Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="http://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run_server">Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="http://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate_static_files">Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="http://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy_to_remote_sites">Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="http://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
-</span>
-        
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-  </section>
-
-  
  </div>
 
         
 
+        
+          <div class="comments" id="comments">
+            
+          </div>
         
       </div>
 
@@ -416,6 +291,15 @@
   <aside id="sidebar" class="sidebar">
     <div class="sidebar-inner">
 
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
       
 
       <section class="site-overview">
@@ -463,6 +347,17 @@
 
       </section>
 
+      
+        <section class="post-toc-wrap sidebar-panel-active">
+          <div class="post-toc-indicator-top post-toc-indicator"></div>
+          <div class="post-toc">
+            
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#PHP实践之侦探篇"><span class="nav-number">1.</span> <span class="nav-text">PHP实践之侦探篇</span></a></li></ol></div>
+            
+          </div>
+          <div class="post-toc-indicator-bottom post-toc-indicator"></div>
+        </section>
       
 
     </div>
@@ -532,6 +427,165 @@
   <script type="text/javascript" src="/vendors/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
 
   
+  
+<script type="text/javascript" src="/js/bootstrap.scrollspy.js?v=0.4.5.1" id="bootstrap.scrollspy.custom"></script>
+
+
+<script type="text/javascript" id="sidebar.toc.highlight">
+  $(document).ready(function () {
+    var tocSelector = '.post-toc';
+    var $tocSelector = $(tocSelector);
+    var activeCurrentSelector = '.active-current';
+
+    $tocSelector
+      .on('activate.bs.scrollspy', function () {
+        var $currentActiveElement = $(tocSelector + ' .active').last();
+
+        removeCurrentActiveClass();
+        $currentActiveElement.addClass('active-current');
+
+        $tocSelector[0].scrollTop = $currentActiveElement.position().top;
+      })
+      .on('clear.bs.scrollspy', function () {
+        removeCurrentActiveClass();
+      });
+
+    function removeCurrentActiveClass () {
+      $(tocSelector + ' ' + activeCurrentSelector)
+        .removeClass(activeCurrentSelector.substring(1));
+    }
+
+    function processTOC () {
+      getTOCMaxHeight();
+      toggleTOCOverflowIndicators();
+    }
+
+    function getTOCMaxHeight () {
+      var height = $('.sidebar').height() -
+                   $tocSelector.position().top -
+                   $('.post-toc-indicator-bottom').height();
+
+      $tocSelector.css('height', height);
+
+      return height;
+    }
+
+    function toggleTOCOverflowIndicators () {
+      tocOverflowIndicator(
+        '.post-toc-indicator-top',
+        $tocSelector.scrollTop() > 0 ? 'show' : 'hide'
+      );
+
+      tocOverflowIndicator(
+        '.post-toc-indicator-bottom',
+        $tocSelector.scrollTop() >= $tocSelector.find('ol').height() - $tocSelector.height() ? 'hide' : 'show'
+      )
+    }
+
+    $(document).on('sidebar.motion.complete', function () {
+      processTOC();
+    });
+
+    $('body').scrollspy({ target: tocSelector });
+    $(window).on('resize', function () {
+      if ( $('.sidebar').hasClass('sidebar-active') ) {
+        processTOC();
+      }
+    });
+
+    onScroll($tocSelector);
+
+    function onScroll (element) {
+      element.on('mousewheel DOMMouseScroll', function (event) {
+          var oe = event.originalEvent;
+          var delta = oe.wheelDelta || -oe.detail;
+
+          this.scrollTop += ( delta < 0 ? 1 : -1 ) * 30;
+          event.preventDefault();
+
+          toggleTOCOverflowIndicators();
+      });
+    }
+
+    function tocOverflowIndicator (indicator, action) {
+      var $indicator = $(indicator);
+      var opacity = action === 'show' ? 0.4 : 0;
+      $indicator.velocity ?
+        $indicator.velocity('stop').velocity({
+          opacity: opacity
+        }, { duration: 100 }) :
+        $indicator.stop().animate({
+          opacity: opacity
+        }, 100);
+    }
+
+  });
+</script>
+
+<script type="text/javascript" id="sidebar.nav">
+  $(document).ready(function () {
+    var html = $('html');
+    var TAB_ANIMATE_DURATION = 200;
+    var hasVelocity = $.isFunction(html.velocity);
+
+    $('.sidebar-nav li').on('click', function () {
+      var item = $(this);
+      var activeTabClassName = 'sidebar-nav-active';
+      var activePanelClassName = 'sidebar-panel-active';
+      if (item.hasClass(activeTabClassName)) {
+        return;
+      }
+
+      var currentTarget = $('.' + activePanelClassName);
+      var target = $('.' + item.data('target'));
+
+      hasVelocity ?
+        currentTarget.velocity('transition.slideUpOut', TAB_ANIMATE_DURATION, function () {
+          target
+            .velocity('stop')
+            .velocity('transition.slideDownIn', TAB_ANIMATE_DURATION)
+            .addClass(activePanelClassName);
+        }) :
+        currentTarget.animate({ opacity: 0 }, TAB_ANIMATE_DURATION, function () {
+          currentTarget.hide();
+          target
+            .stop()
+            .css({'opacity': 0, 'display': 'block'})
+            .animate({ opacity: 1 }, TAB_ANIMATE_DURATION, function () {
+              currentTarget.removeClass(activePanelClassName);
+              target.addClass(activePanelClassName);
+            });
+        });
+
+      item.siblings().removeClass(activeTabClassName);
+      item.addClass(activeTabClassName);
+    });
+
+    $('.post-toc a').on('click', function (e) {
+      e.preventDefault();
+      var targetSelector = escapeSelector(this.getAttribute('href'));
+      var offset = $(targetSelector).offset().top;
+      hasVelocity ?
+        html.velocity('stop').velocity('scroll', {
+          offset: offset  + 'px',
+          mobileHA: false
+        }) :
+        $('html, body').stop().animate({
+          scrollTop: offset
+        }, 500);
+    });
+
+    // Expand sidebar on post detail page by default, when post has a toc.
+    var $tocContent = $('.post-toc-content');
+    if (isDesktop() && CONFIG.sidebar === 'post') {
+      if ($tocContent.length > 0 && $tocContent.html().trim().length > 0) {
+        displaySidebar();
+      }
+    }
+  });
+</script>
+
+
 
   <script type="text/javascript">
     $(document).ready(function () {
