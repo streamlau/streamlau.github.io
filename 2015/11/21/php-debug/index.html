@@ -53,7 +53,7 @@
 相信有很多小伙伴都有过类似的感概和经历，有时甚至都怀疑人生了。每个小伙伴恨不能立马变身柯南，找出事件真相，挖出幕后黑手，就地法办，方解心头之恨！千人千面，“犯罪分子”总是披上不同的外衣。若以侦破速度来论，高手总是善于在蛛丝马迹中寻找破绽，拨开“犯罪分子”">
 <meta property="og:image" content="http://ww3.sinaimg.cn/large/68c3e8ffgw1ey7x7z5gsej20sg0lc77q.jpg">
 <meta property="og:image" content="http://ww2.sinaimg.cn/large/68c3e8ffgw1ey7x8kkg74j20sg0lc76a.jpg">
-<meta property="og:updated_time" content="2015-11-20T17:38:45.000Z">
+<meta property="og:updated_time" content="2015-11-20T17:53:58.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="PHP实践之侦探篇">
 <meta name="twitter:description" content="0. “到底哪错了”
@@ -178,7 +178,7 @@
       <div class="post-meta">
         <span class="post-time">
           发表于
-          <time itemprop="dateCreated" datetime="2015-11-21T01:38:45+08:00" content="2015-11-21">
+          <time itemprop="dateCreated" datetime="2015-11-21T01:53:58+08:00" content="2015-11-21">
             2015-11-21
           </time>
         </span>
@@ -241,13 +241,12 @@
 <p>除了以上基本信息外，XHGui提供了非常友好的用户界面（UI），可以非常方便的进行数据统计，比较与分析。<br>通过XHGui，我们可以清晰看到开销比较大的函数，找到程序的瓶颈，从而确定问题点。</p>
 <h2 id="4-_跟踪执行过程，由浅入深">4. 跟踪执行过程，由浅入深</h2><p>有些问题需要进一步深入到系统层面。这时就轮到利器<strong>strace</strong>出场了，strace可以用于跟踪系统调用，可以用来诊断多种故障。因为strace跟踪的是系统调用，所以需要对操作系统有一定的了解，才能愉快的进行玩耍。如果对底层没有一定的了解，还是赶快回去补上这块知识吧。<br>通过strace我们可以很轻松的跟踪到程序涉及到每个系统调用的过程，返回值。还可以统计出每个系统调用的调用次数、耗时、耗时百分比，错误次数等信息。<br>strace不仅是诊断故障的利器，而且还可以通过它来了解底层的运行原理，比如nginx+fpm.</p>
 <h2 id="5-_高手高手之高高手">5. 高手高手之高高手</h2><p>如果通过上述步骤依然不能很好解决问题，比如内存问题，cpu 100%等问题。这时我们还可以使用<strong>gdb</strong>来确认问题。<strong>gdb</strong>是调试c/c++的利器，需要使用者具备一定c/c++基础方可熟练使用。如果使用者对PHP内核源码也十分熟悉，那简直帅出天际。</p>
-<p>通过以上几步，我们基本上可以侦破大部分的“案件”，揪出幕后“黑手”。一个“案件”的侦破过程其实对我们综合能力的考验，从上述步骤中我们可以看到涉及到</p>
+<h2 id="6-_真相大白">6. 真相大白</h2><p><img src="http://ww2.sinaimg.cn/large/68c3e8ffgw1ey7x8kkg74j20sg0lc76a.jpg" alt=""><br>通过以上几步，我们基本上可以侦破大部分的“案件”，揪出幕后“黑手”。一个“案件”的侦破过程其实对我们综合能力的考验，从上述步骤中我们可以看到涉及到</p>
 <ul>
 <li>PHP语言层面</li>
 <li>系统层面</li>
-<li>网络层面</li>
+<li>网络层面<br>最后就是对工具的熟练使用程度，一个好的工具真的可以大大提高生产力。<br>所以作为一个合格的phper,不仅仅只需要搞懂语言层面就OK了，还需要多方面的知识和技能储备才能侦破各个“疑难杂案”，找出背后真相。</li>
 </ul>
-<h2 id="6-_真相大白">6. 真相大白</h2><p><img src="http://ww2.sinaimg.cn/large/68c3e8ffgw1ey7x8kkg74j20sg0lc76a.jpg" alt=""><br>最后就是对工具的熟练使用程度，一个好的工具真的可以大大提高生产力。<br>所以作为一个合格的phper,不仅仅只需要搞懂语言层面就OK了，还需要多方面的知识和技能储备才能侦破各个“疑难杂案”，找出背后真相。</p>
 </span>
       
     </div>
